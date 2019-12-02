@@ -3,6 +3,7 @@ package com.Maktab32;
 import javax.swing.*;
 import java.util.*;
 import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 public class Main {
     ArrayList<Person>people = new ArrayList<>();
@@ -22,7 +23,8 @@ public class Main {
 
         }
         //end sort
-        //list of people who live in tehran - zone < 5
+        //list of people which live in tehran - zone < 5 implemented normal
+        System.out.println("normal implement : ");
         List<Person> result = new ArrayList<>();
         for(Person p2:people){
             if(p2.getAddress().getCity().equals("Tehran") && p2.getAddress().getZone()<5){
@@ -30,6 +32,21 @@ public class Main {
             }
         }
         System.out.println(result.toString());
+
+        //list of people which live in tehran - zone < 5 implemented by predicates
+        System.out.println("implemented by Predicates : ");
+        Predicate<Person> personPredicate = s->s.getAddress().getCity().equals("Tehran") && s.getAddress().getZone()<5;
+        for (Person p3:people) {
+          boolean validate = personPredicate.test(p3);
+          if(validate==true) System.out.println(p3.toString());
+        }
+
+        //list of people which live in tehran - zone < 5 implemented by streams
+        System.out.println("implemented by streams : ");
+        people.stream().filter(personPredicate).forEach(System.out::println);
+
+
+
 
     }
     public static void main(String[] args) {

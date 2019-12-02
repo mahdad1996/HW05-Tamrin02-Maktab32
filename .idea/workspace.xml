@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8f6d96e2-a218-48e7-ba5e-a10636fe7340" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Maktab32/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Maktab32/Address.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Maktab32/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Maktab32/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,7 +66,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575279531392</updated>
-      <workItem from="1575279535681" duration="4764000" />
+      <workItem from="1575279535681" duration="5369000" />
+      <workItem from="1575286481176" duration="1909000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Sort by age Done&quot;">
       <created>1575282902253</created>
@@ -83,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575283909862</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&quot;List of people which live in tehran - zone less than 5&quot;">
+      <created>1575284396346</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575284396346</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,7 +101,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -103,6 +112,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;Sort by age Done&quot;" />
     <MESSAGE value="&quot;Sort by name and show by last name Done&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Sort by name and show by last name Done&quot;" />
+    <MESSAGE value="&quot;List of people which live in tehran - zone less than 5&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;List of people which live in tehran - zone less than 5&quot;" />
   </component>
 </project>
