@@ -3,11 +3,11 @@ package com.Maktab32;
 public class Address {
     String ally;
     String street;
-    String zone;
+    int zone;
     String city;
     String postalCode;
 
-    public Address(String ally, String street, String zone, String city, String postalCode) {
+    public Address(String ally, String street, int zone, String city, String postalCode) {
         this.ally = ally;
         this.street = street;
         this.zone = zone;
@@ -35,11 +35,11 @@ public class Address {
         this.street = street;
     }
 
-    public String getZone() {
+    public int getZone() {
         return zone;
     }
 
-    public void setZone(String zone) {
+    public void setZone(int zone) {
         this.zone = zone;
     }
 

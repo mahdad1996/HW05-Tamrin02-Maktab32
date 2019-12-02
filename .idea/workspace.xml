@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8f6d96e2-a218-48e7-ba5e-a10636fe7340" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Maktab32/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Maktab32/Address.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Maktab32/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Maktab32/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Maktab32/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Maktab32/Person.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575279531392</updated>
-      <workItem from="1575279535681" duration="4315000" />
+      <workItem from="1575279535681" duration="4764000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Sort by age Done&quot;">
       <created>1575282902253</created>
@@ -76,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575282902253</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="&quot;Sort by name and show by last name Done&quot;">
+      <created>1575283909862</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575283909862</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +102,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;Sort by age Done&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Sort by age Done&quot;" />
+    <MESSAGE value="&quot;Sort by name and show by last name Done&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Sort by name and show by last name Done&quot;" />
   </component>
 </project>
