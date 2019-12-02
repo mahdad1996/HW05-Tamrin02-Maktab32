@@ -57,20 +57,19 @@ public class Main {
 
     public void addPerson(){
         Address adr = new Address("alley","street",5,"city","127210");
-        Person p = new Person("seth","baxter",23 ,adr);
-        people.add(p);
+        people.add(new Person("seth","baxter",23 ,adr));
+
         Address adr1 = new Address("alley1","street1",5,"city1","1272101");
-        Person p1 = new Person("john","morgan",34 ,adr1);
-        people.add(p1);
+        people.add( new Person("john","morgan",34 ,adr1));
+
         Address adr2 = new Address("alley","street",4,"city3","12721033");
-        Person p2 = new Person("adam","nergal",45 ,adr2);
-        people.add(p2);
+        people.add(new Person("adam","nergal",45 ,adr2));
+
         Address adr3 = new Address("alley3","street3",3,"city","127210");
-        Person p3 = new Person("mahdad","aioby",24 ,adr3);
-        people.add(p3);
+        people.add( new Person("mahdad","aioby",24 ,adr3));
+
         Address adr4 = new Address("alley4","street4",2,"Tehran","127218880");
-        Person p4 = new Person("carach","angren",37 ,adr4);
-        people.add(p4);
+        people.add(new Person("carach","angren",37 ,adr4));
 
     }
 }
