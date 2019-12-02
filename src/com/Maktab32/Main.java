@@ -1,5 +1,6 @@
 package com.Maktab32;
 
+import javax.swing.*;
 import java.util.*;
 import java.util.function.Predicate;
 
@@ -8,10 +9,20 @@ public class Main {
 
     public Main(){
         addPerson();
+        //sort by age:
         Collections.sort(people,new SortByAge());
         for (Person p:people) {
             System.out.println(p.toString());
         }
+        //end sort
+        //sort by lenght of name
+        Collections.sort(people,new SortByLastName());
+        for (Person p1:people){
+            System.out.println(p1.getLastName());
+
+        }
+        //end sort
+
     }
     public static void main(String[] args) {
 
